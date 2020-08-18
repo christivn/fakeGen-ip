@@ -1,6 +1,6 @@
 
 def ip():
-    import random
+    from random import randint
     ip=""
     for i in range(4):
         num=random.randint(0, 255)
